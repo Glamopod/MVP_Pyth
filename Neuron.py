@@ -4,6 +4,8 @@
 
 class Neuron:
     # Initializer / Instance Attributes
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+    def __init__(self, id, weight, layer, bias):
+        self.name = id
+        self.age = weight
+        self.layer = layer
+        self.bias = bias
